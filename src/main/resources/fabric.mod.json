@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "popular-biology-fix",
+	"version": "${version}",
+	"name": "Popular Biology Fix",
+	"description": "Fix Popular Biology's bugs.",
+	"authors": [
+		"OrzMiku"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/OrzMiku/PopularBiologyFix"
+	},
+	"license": "MIT",
+	"icon": "assets/popular-biology-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"show.miku.PopularBiologyFix"
+		]
+	},
+	"mixins": [
+		"popular-biology-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"popularbiology": ">=2.3"
+	}
+}
